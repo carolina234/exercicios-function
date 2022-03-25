@@ -129,7 +129,15 @@ function lasty(n) {
 
 
 //Faça uma função que recebe um parâmetro n e q e escreva na tela todos os números entre 0 e q que sejam divisíveis por n.exemplo: para n = 3 e q = 10, deve escrever 0, 3, 6 e 9.
-
+function divisiveis(n,q){
+var i = 0
+while(i<=q){
+    if(i%n == 0){
+        console.log(i)
+    }
+    i++
+}
+}
 
 
 //No código acima (que possui um comentário // loops, "laços" ), note que o 10não foi escrito. Por que ele não é escrito?
